@@ -1,0 +1,255 @@
+[
+{
+        "id": 1,
+        "question_var": "hGender",
+        "question_text": "hGender: What is your gender?",
+        "base_text": "Total Respondents",
+        "display_structure": [
+            [
+                "code",
+                "Male",
+                1
+            ],
+            [
+                "code",
+                "Female",
+                2
+            ]
+      ],
+        "base_filter": null,
+        "question_type": "single",
+        "mean_var": null,
+        "show_sigma": true
+},
+{
+        "id": 2,
+        "question_var": "hAGE",
+        "question_text": "hAGE: Hidden: Age",
+        "base_text": "Total Respondents",
+        "display_structure": [
+            [
+                "code",
+                "18-34",
+                1
+            ],
+            [
+                "code",
+                "35-54",
+                2
+            ],
+            [
+                "code",
+                "55+",
+                3
+            ]
+        ],
+        "base_filter": null,
+        "question_type": "single",
+        "mean_var": "S1",
+        "show_sigma": true
+    },
+{
+        "id": 3,
+        "question_var": [
+            "S4r1",
+            "S4r2",
+            "S4r3",
+            "S4r4",
+            "S4r5",
+            "S4r6"
+        ],
+        "question_text": "S4r1: TV from a cable or satellite provider (e.g., Spectrum, Comcast, DISH, DIRECTV, U-verse, Verizon FiOS, etc.) - Which of the following do you currently subscribe to?",
+        "base_text": "Total Respondents",
+        "display_structure": [
+            [
+                "net",
+                "Any S4 (NET)",
+                [
+                    "S4r1",
+                    "S4r2",
+                    "S4r3",
+                    "S4r4",
+                    "S4r5"
+                                  ]
+            ],
+            [
+                "code",
+                "S4r1: TV from a cable or satellite provider (e.g., Spectrum, Comcast, DISH, DIRECTV, U-verse, Verizon FiOS, etc.) - Which of the following do you currently subscribe to?",
+                "S4r1"
+            ],
+            [
+                "code",
+                "S4r2: Live TV streamed over the internet (e.g., Sling TV, Hulu + Live TV, YouTube TV, DIRECTV STREAM, etc.) - Which of the following do you currently subscribe to?",
+                "S4r2"
+            ],
+            [
+                "code",
+                "S4r3: Video streaming service (e.g., Netflix, Amazon Prime, Hulu, Apple TV+, Disney+, Max) - Which of the following do you currently subscribe to?",
+                "S4r3"
+            ],
+            [
+                "code",
+                "S4r4: Wi-Fi or home internet service (e.g., Comcast, AT&T, FiOS, Spectrum, etc.) - Which of the following do you currently subscribe to?",
+                "S4r4"
+            ],
+            [
+                "code",
+                "S4r5: Cell phone service (e.g., AT&T, T-Mobile, Verizon, Cricket, etc.) - Which of the following do you currently subscribe to?",
+                "S4r5"
+            ],
+            [
+                "code",
+                "S4r6: None of the above - Which of the following do you currently subscribe to?",
+                "S4r6"
+            ]
+        ],
+        "base_filter": null,
+        "question_type": "multi",
+        "mean_var": null,
+        "show_sigma": true
+    },
+{
+        "id": 4,
+        "question_var": "S5",
+        "question_text": "S5: You mentioned that you subscribe to a cable or satellite TV provider. Which of the following do you subscribe to?",
+        "base_text": "Total Respondents",
+        "display_structure": [
+            [
+                "code",
+                "Altice/Suddenlink/Cablevision",
+                1
+            ],
+            [
+                "code",
+                "Charter/Spectrum",
+                2
+            ],
+            [
+                "code",
+                "COX",
+                3
+            ],
+            [
+                "code",
+                "CenturyLink/Qwest",
+                4
+            ],
+            [
+                "code",
+                "Comcast/Xfinity",
+                5
+            ],
+            [
+                "code",
+                "DIRECTV (satellite)",
+                6
+            ],
+            [
+                "code",
+                "DISH Network (satellite)",
+                7
+            ],
+            [
+                "code",
+                "Frontier",
+                8
+            ],
+            [
+                "code",
+                "Verizon FiOS",
+                9
+            ],
+            [
+                "code",
+                "Mediacom (including Earthlink)",
+                10
+            ],
+            [
+                "code",
+                "Other",
+                99
+            ],
+            [
+                "code",
+                "None of the above",
+                100
+            ]
+        ],
+        "base_filter": "S4r1=1",
+        "question_type": "single",
+        "mean_var": null,
+        "show_sigma": true
+    },
+    {
+        "id": 5,
+        "question_var": "S5",
+        "question_text": "S5: You mentioned that you subscribe to a cable or satellite TV provider. Which of the following do you subscribe to?",
+        "base_text": "Total Respondents",
+        "display_structure": [
+            [
+                "code",
+                "Altice/Suddenlink/Cablevision",
+                1
+            ],
+            [
+                "code",
+                "Charter/Spectrum",
+                2
+            ],
+            [
+                "code",
+                "COX",
+                3
+            ],
+            [
+                "code",
+                "CenturyLink/Qwest",
+                4
+            ],
+            [
+                "code",
+                "Comcast/Xfinity",
+                5
+            ],
+            [
+                "code",
+                "DIRECTV (satellite)",
+                6
+            ],
+            [
+                "code",
+                "DISH Network (satellite)",
+                7
+            ],
+            [
+                "code",
+                "Frontier",
+                8
+            ],
+            [
+                "code",
+                "Verizon FiOS",
+                9
+            ],
+            [
+                "code",
+                "Mediacom (including Earthlink)",
+                10
+            ],
+            [
+                "code",
+                "Other",
+                99
+            ],
+            [
+                "code",
+                "None of the above",
+                100
+            ]
+        ],
+        "base_filter": null,
+        "question_type": "single",
+        "mean_var": null,
+        "show_sigma": true
+    }
+]
