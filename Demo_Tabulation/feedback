@@ -1,0 +1,22 @@
+gender
+for table Hage and mean median use S1
+S4 create one nets include (1-5)
+S5 one on total and one on filtered
+Q1 nets (T2B,T3B,B2B,B3B) ORDER SHOULD 10-0 mean std err,sdt dev
+
+
+##Banner points
+
+A Gen Pop Sample	 vboost=1
+
+F	Male 
+G	Female
+
+K	Sports Fans	Serious Sports Fan
+L	Not Serious Sports Fan
+
+
+M	Viewing Hours	3 or less
+N	4 - 9 hours
+O	10+ hours
+
