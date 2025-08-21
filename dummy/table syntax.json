@@ -24,7 +24,7 @@
 {
         "id": 2,
         "question_var": "hAGE",
-        "question_text": "hAGE: Hidden: Age",
+        "question_text": "hAGE: What is your age?",
         "base_text": "Total Respondents",
         "display_structure": [
             [
@@ -58,7 +58,7 @@
             "S4r5",
             "S4r6"
         ],
-        "question_text": "S4r1: TV from a cable or satellite provider (e.g., Spectrum, Comcast, DISH, DIRECTV, U-verse, Verizon FiOS, etc.) - Which of the following do you currently subscribe to?",
+        "question_text": "S4. Which of the following do you currently subscribe to?",
         "base_text": "Total Respondents",
         "display_structure": [
             [
@@ -70,36 +70,36 @@
                     "S4r3",
                     "S4r4",
                     "S4r5"
-                                  ]
+                ]
             ],
             [
                 "code",
-                "S4r1: TV from a cable or satellite provider (e.g., Spectrum, Comcast, DISH, DIRECTV, U-verse, Verizon FiOS, etc.) - Which of the following do you currently subscribe to?",
+                "TV from a cable or satellite provider (e.g., Spectrum, Comcast, DISH, DIRECTV, U-verse, Verizon FiOS, etc.)",
                 "S4r1"
             ],
             [
                 "code",
-                "S4r2: Live TV streamed over the internet (e.g., Sling TV, Hulu + Live TV, YouTube TV, DIRECTV STREAM, etc.) - Which of the following do you currently subscribe to?",
+                "Live TV streamed over the internet (e.g., Sling TV, Hulu + Live TV, YouTube TV, DIRECTV STREAM, etc.)",
                 "S4r2"
             ],
             [
                 "code",
-                "S4r3: Video streaming service (e.g., Netflix, Amazon Prime, Hulu, Apple TV+, Disney+, Max) - Which of the following do you currently subscribe to?",
+                "Video streaming service (e.g., Netflix, Amazon Prime, Hulu, Apple TV+, Disney+, Max)",
                 "S4r3"
             ],
             [
                 "code",
-                "S4r4: Wi-Fi or home internet service (e.g., Comcast, AT&T, FiOS, Spectrum, etc.) - Which of the following do you currently subscribe to?",
+                "Wi-Fi or home internet service (e.g., Comcast, AT&T, FiOS, Spectrum, etc.)",
                 "S4r4"
             ],
             [
                 "code",
-                "S4r5: Cell phone service (e.g., AT&T, T-Mobile, Verizon, Cricket, etc.) - Which of the following do you currently subscribe to?",
+                "Cell phone service (e.g., AT&T, T-Mobile, Verizon, Cricket, etc.)",
                 "S4r5"
             ],
             [
                 "code",
-                "S4r6: None of the above - Which of the following do you currently subscribe to?",
+                "None of the above",
                 "S4r6"
             ]
         ],
@@ -111,8 +111,8 @@
 {
         "id": 4,
         "question_var": "S5",
-        "question_text": "S5: You mentioned that you subscribe to a cable or satellite TV provider. Which of the following do you subscribe to?",
-        "base_text": "Total Respondents",
+        "question_text": "S5. You mentioned that you subscribe to a cable or satellite TV provider. Which of the following do you subscribe to?",
+        "base_text": "SUBSCRIBE TO CABLE / SATELLITE PROVIDER",
         "display_structure": [
             [
                 "code",
@@ -183,7 +183,7 @@
     {
         "id": 5,
         "question_var": "S5",
-        "question_text": "S5: You mentioned that you subscribe to a cable or satellite TV provider. Which of the following do you subscribe to?",
+        "question_text": "S5. You mentioned that you subscribe to a cable or satellite TV provider. Which of the following do you subscribe to?",
         "base_text": "Total Respondents",
         "display_structure": [
             [
@@ -255,53 +255,29 @@
     {
         "id": 6,
         "question_var": "Q1",
-        "question_text": "Q1: You mentioned that you subscribe to a cable or satellite TV provider. Which of the following do you subscribe to?",
-        "base_text": "Total Respondents",
+        "question_text": "Q1. You mentioned that you subscribe to a cable or satellite TV provider. Which of the following do you subscribe to?",
+        "base_text": "PAY FOR A TV SERVICE",
         "display_structure": [
             [
-                "code",
-                "0 - Not at all Satisfied",
-                0
+                "net",
+                "Top 3 Box (NET)",
+                [
+                    10,9,8
+                ]
+
+            ],
+            [
+                "net",
+                "Top 2 Box (NET)",
+                [
+                    10,9
+                ]
+
             ],
             [
                 "code",
-                "1",
-                1
-            ],
-            [
-                "code",
-                "2",
-                2
-            ],
-            [
-                "code",
-                "3",
-                3
-            ],
-            [
-                "code",
-                "4",
-                4
-            ],
-            [
-                "code",
-                "5",
-                5
-            ],
-            [
-                "code",
-                "6",
-                6
-            ],
-            [
-                "code",
-                "7",
-                7
-            ],
-            [
-                "code",
-                "8",
-                8
+                "10 - Completely Satisfied",
+                10
             ],
             [
                 "code",
@@ -310,8 +286,64 @@
             ],
             [
                 "code",
-                "10",
-                10
+                "8",
+                8
+            ],
+            [
+                "code",
+                "7",
+                7
+            ],
+            [
+                "code",
+                "6",
+                6
+            ],
+            [
+                "code",
+                "5",
+                5
+            ],
+            [
+                "code",
+                "4",
+                4
+            ],            
+            [
+                "code",
+                "3",
+                3
+            ],
+            [
+                "net",
+                "Bottom 3 Box (NET)",
+                [
+                    0,1,2
+                ]
+
+            ],
+            [
+                "code",
+                "2",
+                2
+            ],
+            [
+                "net",
+                "Bottom 2 Box (NET)",
+                [
+                    0,1
+                ]
+
+            ],
+            [
+                "code",
+                "1",
+                1
+            ],
+            [
+                "code",
+                "0 - Not at all Satisfied",
+                0
             ]
         ],
         "base_filter": "hMVPD==2 or h_vMVPD==2",
@@ -329,8 +361,7 @@
             "9": 9,
             "10": 10
         },
-
         "show_sigma": true
     }
-
+ 
 ]
