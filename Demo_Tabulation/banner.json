@@ -1,0 +1,12 @@
+[
+    {
+        "id": "A",
+        "label": "Total",
+        "condition": null
+    },
+    {
+        "id": "B",
+        "label": "Gen Pop Sample",
+        "condition": "vboost == 1"
+    }
+]
