@@ -1,349 +1,44 @@
 [
     {
+        "id": 1,
+        "question_var": "S1",
+        "question_text": "S1: What is your age?",
+        "base_text": "Total Respondents",
+        "display_structure": [],
+        "base_filter": null,
+        "question_type": "open_numeric",
+        "mean_var": "S1",
+        "show_sigma": true
+    },
+    {
+        "id": 2,
+        "question_var": "hAGE",
+        "question_text": "hAGE: Hidden: Age",
+        "base_text": "Total Respondents",
+        "display_structure": [
+            [
+                "code",
+                "18-34",
+                1
+            ],
+            [
+                "code",
+                "35-54",
+                2
+            ],
+            [
+                "code",
+                "55+",
+                3
+            ]
+        ],
+        "base_filter": null,
+        "question_type": "single",
+        "mean_var": null,
+        "show_sigma": true
+    },
+    {
         "id": 3,
-        "question_var": "Q12",
-        "question_text": "Q12: In an average week, about how much time do you spend watching TV or video content?",
-        "base_text": "Total Respondents",
-        "display_structure": [
-            [
-                "code",
-                "Less than 1 hour",
-                1
-            ],
-            [
-                "code",
-                "Between 1 and 3 hours",
-                2
-            ],
-            [
-                "code",
-                "Between 4 and 5 hours",
-                3
-            ],
-            [
-                "code",
-                "Between 6 and 7 hours",
-                4
-            ],
-            [
-                "code",
-                "Between 8 and 9 hours",
-                5
-            ],
-            [
-                "code",
-                "Between 10 and 14 hours",
-                6
-            ],
-            [
-                "code",
-                "15 hours or more",
-                7
-            ],
-            [
-                "code",
-                "Don't know",
-                8
-            ]
-        ],
-        "base_filter": null,
-        "question_type": "single",
-        "mean_var": null,
-        "show_sigma": true
-    },
-    {
-        "id": 4,
-        "question_var": "Q16",
-        "question_text": "Q16: You mentioned that you have a Smart TV. What brand is your TV?",
-        "base_text": "Total Respondents",
-        "display_structure": [
-            [
-                "code",
-                "LG",
-                1
-            ],
-            [
-                "code",
-                "Vizio",
-                2
-            ],
-            [
-                "code",
-                "Sony",
-                3
-            ],
-            [
-                "code",
-                "Samsung",
-                4
-            ],
-            [
-                "code",
-                "TCL",
-                5
-            ],
-            [
-                "code",
-                "Hisense",
-                6
-            ],
-            [
-                "code",
-                "Insignia",
-                7
-            ],
-            [
-                "code",
-                "JVC",
-                8
-            ],
-            [
-                "code",
-                "Other, please specify",
-                9
-            ]
-        ],
-        "base_filter": null,
-        "question_type": "single",
-        "mean_var": null,
-        "show_sigma": true
-    },
-    {
-        "id": 5,
-        "question_var": "Q17",
-        "question_text": "Q17: How many TVs do you have in your home?",
-        "base_text": "Total Respondents",
-        "display_structure": [
-            [
-                "code",
-                "1",
-                1
-            ],
-            [
-                "code",
-                "2",
-                2
-            ],
-            [
-                "code",
-                "3",
-                3
-            ],
-            [
-                "code",
-                "4",
-                4
-            ],
-            [
-                "code",
-                "5 or more TVs",
-                5
-            ]
-        ],
-        "base_filter": null,
-        "question_type": "single",
-        "mean_var": null,
-        "show_sigma": true
-    },
-    {
-        "id": 6,
-        "question_var": "Q20",
-        "question_text": "Q20: What type of area do you live in?",
-        "base_text": "Total Respondents",
-        "display_structure": [
-            [
-                "code",
-                "An urban setting",
-                1
-            ],
-            [
-                "code",
-                "A suburban setting",
-                2
-            ],
-            [
-                "code",
-                "A smaller city or larger town",
-                3
-            ],
-            [
-                "code",
-                "Countryside or rural setting",
-                4
-            ]
-        ],
-        "base_filter": null,
-        "question_type": "single",
-        "mean_var": null,
-        "show_sigma": true
-    },
-    {
-        "id": 7,
-        "question_var": "Q22",
-        "question_text": "Q22: What is your marital status?",
-        "base_text": "Total Respondents",
-        "display_structure": [
-            [
-                "code",
-                "Married or living with a partner",
-                1
-            ],
-            [
-                "code",
-                "Widowed",
-                2
-            ],
-            [
-                "code",
-                "Separated or divorced",
-                3
-            ],
-            [
-                "code",
-                "Single, never married",
-                4
-            ],
-            [
-                "code",
-                "Prefer not to say",
-                5
-            ]
-        ],
-        "base_filter": null,
-        "question_type": "single",
-        "mean_var": null,
-        "show_sigma": true
-    },
-    {
-        "id": 8,
-        "question_var": "Q23",
-        "question_text": "Q23: Do you currently rent or own your residence?",
-        "base_text": "Total Respondents",
-        "display_structure": [
-            [
-                "code",
-                "Rent",
-                1
-            ],
-            [
-                "code",
-                "Own",
-                2
-            ],
-            [
-                "code",
-                "Other, please specify",
-                3
-            ]
-        ],
-        "base_filter": null,
-        "question_type": "single",
-        "mean_var": null,
-        "show_sigma": true
-    },
-    {
-        "id": 9,
-        "question_var": "Q24",
-        "question_text": "Q24: Are you the parent or guardian of any children under 18 years old, who live in your household?",
-        "base_text": "Total Respondents",
-        "display_structure": [
-            [
-                "code",
-                "Yes",
-                1
-            ],
-            [
-                "code",
-                "No",
-                2
-            ]
-        ],
-        "base_filter": null,
-        "question_type": "single",
-        "mean_var": null,
-        "show_sigma": true
-    },
-    {
-        "id": 10,
-        "question_var": "Q26",
-        "question_text": "Q26: Which of the following best describes your employment status?",
-        "base_text": "Total Respondents",
-        "display_structure": [
-            [
-                "code",
-                "Employed full time (35+ hours per week)",
-                1
-            ],
-            [
-                "code",
-                "Employed part time (less than 35 hours per week)",
-                2
-            ],
-            [
-                "code",
-                "Retired",
-                3
-            ],
-            [
-                "code",
-                "A student",
-                4
-            ],
-            [
-                "code",
-                "A homemaker",
-                5
-            ],
-            [
-                "code",
-                "Not employed",
-                6
-            ],
-            [
-                "code",
-                "I prefer not to answer",
-                98
-            ]
-        ],
-        "base_filter": null,
-        "question_type": "single",
-        "mean_var": null,
-        "show_sigma": true
-    },
-    {
-        "id": 11,
-        "question_var": "S10B",
-        "question_text": "S10B: How much time do you spend watching Sports?",
-        "base_text": "Total Respondents",
-        "display_structure": [
-            [
-                "code",
-                "Less than 1 hour per week",
-                1
-            ],
-            [
-                "code",
-                "Between 1 hour to 4 hours per week",
-                2
-            ],
-            [
-                "code",
-                "Between 5 to 10 hours per week",
-                3
-            ],
-            [
-                "code",
-                "More than 10 hours per week",
-                4
-            ]
-        ],
-        "base_filter": null,
-        "question_type": "single",
-        "mean_var": null,
-        "show_sigma": true
-    },
-    {
-        "id": 12,
         "question_var": "S2",
         "question_text": "S2: What is your gender?",
         "base_text": "Total Respondents",
@@ -380,7 +75,29 @@
         "show_sigma": true
     },
     {
-        "id": 13,
+        "id": 4,
+        "question_var": "hGender",
+        "question_text": "hGender: Hidden: Gender",
+        "base_text": "Total Respondents",
+        "display_structure": [
+            [
+                "code",
+                "Male",
+                1
+            ],
+            [
+                "code",
+                "Female",
+                2
+            ]
+        ],
+        "base_filter": null,
+        "question_type": "single",
+        "mean_var": null,
+        "show_sigma": true
+    },
+    {
+        "id": 5,
         "question_var": "S5",
         "question_text": "S5: You mentioned that you subscribe to a cable or satellite TV provider. Which of the following do you subscribe to?",
         "base_text": "Total Respondents",
@@ -452,7 +169,7 @@
         "show_sigma": true
     },
     {
-        "id": 14,
+        "id": 6,
         "question_var": "S6a",
         "question_text": "S6a: You mentioned that you currently subscribe to DIRECTV STREAM. Have you bought the DIRECTV STREAM device with your DIRECTV package?",
         "base_text": "Total Respondents",
@@ -474,7 +191,7 @@
         "show_sigma": true
     },
     {
-        "id": 15,
+        "id": 7,
         "question_var": "S6b",
         "question_text": "S6b: Do you have a 24-month service term commitment with your DIRECTV STREAM package?",
         "base_text": "Total Respondents",
@@ -501,7 +218,18 @@
         "show_sigma": true
     },
     {
-        "id": 16,
+        "id": 8,
+        "question_var": "S7a",
+        "question_text": "S7a: Overall, how much do you spend per month on video content (including both TV subscriptions and streaming services)?",
+        "base_text": "Total Respondents",
+        "display_structure": [],
+        "base_filter": null,
+        "question_type": "open_numeric",
+        "mean_var": "S7a",
+        "show_sigma": true
+    },
+    {
+        "id": 9,
         "question_var": "S8a",
         "question_text": "S8a: You mentioned that you have DIRECTV. Do you have a satellite dish for your DIRECTV service?",
         "base_text": "Total Respondents",
@@ -523,7 +251,7 @@
         "show_sigma": true
     },
     {
-        "id": 17,
+        "id": 10,
         "question_var": "S8b",
         "question_text": "S8b: You mentioned that you subscribe to several services for live TV. Which of the following do you use most often?",
         "base_text": "Total Respondents",
@@ -640,7 +368,7 @@
         "show_sigma": true
     },
     {
-        "id": 18,
+        "id": 11,
         "question_var": "S9",
         "question_text": "S9: Which of the following best describes your role in making decisions about the TV and streaming subscriptions for your household?",
         "base_text": "Total Respondents",
@@ -672,25 +400,564 @@
         "show_sigma": true
     },
     {
-        "id": 20,
-        "question_var": "hAGE",
-        "question_text": "hAGE: Hidden: Age",
+        "id": 12,
+        "question_var": "S10B",
+        "question_text": "S10B: How much time do you spend watching Sports?",
         "base_text": "Total Respondents",
         "display_structure": [
             [
                 "code",
-                "18-34",
+                "Less than 1 hour per week",
                 1
             ],
             [
                 "code",
-                "35-54",
+                "Between 1 hour to 4 hours per week",
                 2
             ],
             [
                 "code",
-                "55+",
+                "Between 5 to 10 hours per week",
                 3
+            ],
+            [
+                "code",
+                "More than 10 hours per week",
+                4
+            ]
+        ],
+        "base_filter": null,
+        "question_type": "single",
+        "mean_var": null,
+        "show_sigma": true
+    },
+    {
+        "id": 13,
+        "question_var": [
+            "Q1",
+            "Q1",
+            "Q1",
+            "Q1",
+            "Q1",
+            "Q1",
+            "Q1",
+            "Q1",
+            "Q1",
+            "Q1"
+        ],
+        "question_text": "Q1: Overall, how satisfied are you with your [pipe: p_PRIMARY_TV] service?",
+        "base_text": "Total Respondents",
+        "display_structure": [
+            [
+                "net",
+                "Any Q1 (NET)",
+                [
+                    "Q1",
+                    "Q1",
+                    "Q1",
+                    "Q1",
+                    "Q1",
+                    "Q1",
+                    "Q1",
+                    "Q1",
+                    "Q1",
+                    "Q1"
+                ]
+            ],
+            [
+                "code",
+                "1",
+                "Q1"
+            ],
+            [
+                "code",
+                "2",
+                "Q1"
+            ],
+            [
+                "code",
+                "3",
+                "Q1"
+            ],
+            [
+                "code",
+                "4",
+                "Q1"
+            ],
+            [
+                "code",
+                "5",
+                "Q1"
+            ],
+            [
+                "code",
+                "6",
+                "Q1"
+            ],
+            [
+                "code",
+                "7",
+                "Q1"
+            ],
+            [
+                "code",
+                "8",
+                "Q1"
+            ],
+            [
+                "code",
+                "9",
+                "Q1"
+            ],
+            [
+                "code",
+                "Completely Satisfied10",
+                "Q1"
+            ]
+        ],
+        "base_filter": null,
+        "question_type": "multi",
+        "mean_var": null,
+        "show_sigma": true
+    },
+    {
+        "id": 14,
+        "question_var": [
+            "Q4",
+            "Q4",
+            "Q4",
+            "Q4",
+            "Q4",
+            "Q4",
+            "Q4",
+            "Q4",
+            "Q4",
+            "Q4"
+        ],
+        "question_text": "Q4: Suppose that [pipe: p_PRIMARY_TV] offered the features you rated as most useful. How much more or less satisfied would you be with your current TV service?",
+        "base_text": "Total Respondents",
+        "display_structure": [
+            [
+                "net",
+                "Any Q4 (NET)",
+                [
+                    "Q4",
+                    "Q4",
+                    "Q4",
+                    "Q4",
+                    "Q4",
+                    "Q4",
+                    "Q4",
+                    "Q4",
+                    "Q4",
+                    "Q4"
+                ]
+            ],
+            [
+                "code",
+                "1",
+                "Q4"
+            ],
+            [
+                "code",
+                "2",
+                "Q4"
+            ],
+            [
+                "code",
+                "3",
+                "Q4"
+            ],
+            [
+                "code",
+                "4",
+                "Q4"
+            ],
+            [
+                "code",
+                "No Change5",
+                "Q4"
+            ],
+            [
+                "code",
+                "6",
+                "Q4"
+            ],
+            [
+                "code",
+                "7",
+                "Q4"
+            ],
+            [
+                "code",
+                "8",
+                "Q4"
+            ],
+            [
+                "code",
+                "9",
+                "Q4"
+            ],
+            [
+                "code",
+                "Much More Satisfied10",
+                "Q4"
+            ]
+        ],
+        "base_filter": null,
+        "question_type": "multi",
+        "mean_var": null,
+        "show_sigma": true
+    },
+    {
+        "id": 15,
+        "question_var": [
+            "Q6",
+            "Q6",
+            "Q6",
+            "Q6",
+            "Q6",
+            "Q6",
+            "Q6",
+            "Q6",
+            "Q6",
+            "Q6"
+        ],
+        "question_text": "Q6: Suppose [pipe: p_PRIMARY_TV] offered the features you rated as most useful. How much more or less likely would you be to continue subscribing to [pipe: p_PRIMARY_TV] based on the availability of those features?",
+        "base_text": "Total Respondents",
+        "display_structure": [
+            [
+                "net",
+                "Any Q6 (NET)",
+                [
+                    "Q6",
+                    "Q6",
+                    "Q6",
+                    "Q6",
+                    "Q6",
+                    "Q6",
+                    "Q6",
+                    "Q6",
+                    "Q6",
+                    "Q6"
+                ]
+            ],
+            [
+                "code",
+                "1",
+                "Q6"
+            ],
+            [
+                "code",
+                "2",
+                "Q6"
+            ],
+            [
+                "code",
+                "3",
+                "Q6"
+            ],
+            [
+                "code",
+                "4",
+                "Q6"
+            ],
+            [
+                "code",
+                "No Change5",
+                "Q6"
+            ],
+            [
+                "code",
+                "6",
+                "Q6"
+            ],
+            [
+                "code",
+                "7",
+                "Q6"
+            ],
+            [
+                "code",
+                "8",
+                "Q6"
+            ],
+            [
+                "code",
+                "9",
+                "Q6"
+            ],
+            [
+                "code",
+                "Much More Likely10",
+                "Q6"
+            ]
+        ],
+        "base_filter": null,
+        "question_type": "multi",
+        "mean_var": null,
+        "show_sigma": true
+    },
+    {
+        "id": 16,
+        "question_var": [
+            "Q7",
+            "Q7",
+            "Q7",
+            "Q7",
+            "Q7",
+            "Q7",
+            "Q7",
+            "Q7",
+            "Q7",
+            "Q7"
+        ],
+        "question_text": "Q7: Suppose that a TV / streaming service you don’t currently use offered the features you rated as most appealing. How much more or less likely would you be to subscribe to that service based on the availability of those features?",
+        "base_text": "Total Respondents",
+        "display_structure": [
+            [
+                "net",
+                "Any Q7 (NET)",
+                [
+                    "Q7",
+                    "Q7",
+                    "Q7",
+                    "Q7",
+                    "Q7",
+                    "Q7",
+                    "Q7",
+                    "Q7",
+                    "Q7",
+                    "Q7"
+                ]
+            ],
+            [
+                "code",
+                "1",
+                "Q7"
+            ],
+            [
+                "code",
+                "2",
+                "Q7"
+            ],
+            [
+                "code",
+                "3",
+                "Q7"
+            ],
+            [
+                "code",
+                "4",
+                "Q7"
+            ],
+            [
+                "code",
+                "No Change5",
+                "Q7"
+            ],
+            [
+                "code",
+                "6",
+                "Q7"
+            ],
+            [
+                "code",
+                "7",
+                "Q7"
+            ],
+            [
+                "code",
+                "8",
+                "Q7"
+            ],
+            [
+                "code",
+                "9",
+                "Q7"
+            ],
+            [
+                "code",
+                "Much More Likely10",
+                "Q7"
+            ]
+        ],
+        "base_filter": null,
+        "question_type": "multi",
+        "mean_var": null,
+        "show_sigma": true
+    },
+    {
+        "id": 17,
+        "question_var": "Q12",
+        "question_text": "Q12: In an average week, about how much time do you spend watching TV or video content?",
+        "base_text": "Total Respondents",
+        "display_structure": [
+            [
+                "code",
+                "Less than 1 hour",
+                1
+            ],
+            [
+                "code",
+                "Between 1 and 3 hours",
+                2
+            ],
+            [
+                "code",
+                "Between 4 and 5 hours",
+                3
+            ],
+            [
+                "code",
+                "Between 6 and 7 hours",
+                4
+            ],
+            [
+                "code",
+                "Between 8 and 9 hours",
+                5
+            ],
+            [
+                "code",
+                "Between 10 and 14 hours",
+                6
+            ],
+            [
+                "code",
+                "15 hours or more",
+                7
+            ],
+            [
+                "code",
+                "Don't know",
+                8
+            ]
+        ],
+        "base_filter": null,
+        "question_type": "single",
+        "mean_var": null,
+        "show_sigma": true
+    },
+    {
+        "id": 18,
+        "question_var": "Q16",
+        "question_text": "Q16: You mentioned that you have a Smart TV. What brand is your TV?",
+        "base_text": "Total Respondents",
+        "display_structure": [
+            [
+                "code",
+                "LG",
+                1
+            ],
+            [
+                "code",
+                "Vizio",
+                2
+            ],
+            [
+                "code",
+                "Sony",
+                3
+            ],
+            [
+                "code",
+                "Samsung",
+                4
+            ],
+            [
+                "code",
+                "TCL",
+                5
+            ],
+            [
+                "code",
+                "Hisense",
+                6
+            ],
+            [
+                "code",
+                "Insignia",
+                7
+            ],
+            [
+                "code",
+                "JVC",
+                8
+            ],
+            [
+                "code",
+                "Other, please specify",
+                9
+            ]
+        ],
+        "base_filter": null,
+        "question_type": "single",
+        "mean_var": null,
+        "show_sigma": true
+    },
+    {
+        "id": 19,
+        "question_var": "Q17",
+        "question_text": "Q17: How many TVs do you have in your home?",
+        "base_text": "Total Respondents",
+        "display_structure": [
+            [
+                "code",
+                "1",
+                1
+            ],
+            [
+                "code",
+                "2",
+                2
+            ],
+            [
+                "code",
+                "3",
+                3
+            ],
+            [
+                "code",
+                "4",
+                4
+            ],
+            [
+                "code",
+                "5 or more TVs",
+                5
+            ]
+        ],
+        "base_filter": null,
+        "question_type": "single",
+        "mean_var": null,
+        "show_sigma": true
+    },
+    {
+        "id": 20,
+        "question_var": "Q20",
+        "question_text": "Q20: What type of area do you live in?",
+        "base_text": "Total Respondents",
+        "display_structure": [
+            [
+                "code",
+                "An urban setting",
+                1
+            ],
+            [
+                "code",
+                "A suburban setting",
+                2
+            ],
+            [
+                "code",
+                "A smaller city or larger town",
+                3
+            ],
+            [
+                "code",
+                "Countryside or rural setting",
+                4
             ]
         ],
         "base_filter": null,
@@ -700,19 +967,34 @@
     },
     {
         "id": 21,
-        "question_var": "hMVPD",
-        "question_text": "hMVPD: Hidden: hMVPD",
+        "question_var": "Q22",
+        "question_text": "Q22: What is your marital status?",
         "base_text": "Total Respondents",
         "display_structure": [
             [
                 "code",
-                "0",
+                "Married or living with a partner",
                 1
             ],
             [
                 "code",
-                "1",
+                "Widowed",
                 2
+            ],
+            [
+                "code",
+                "Separated or divorced",
+                3
+            ],
+            [
+                "code",
+                "Single, never married",
+                4
+            ],
+            [
+                "code",
+                "Prefer not to say",
+                5
             ]
         ],
         "base_filter": null,
@@ -722,23 +1004,23 @@
     },
     {
         "id": 22,
-        "question_var": "vboost",
-        "question_text": "vboost: boost",
+        "question_var": "Q23",
+        "question_text": "Q23: Do you currently rent or own your residence?",
         "base_text": "Total Respondents",
         "display_structure": [
             [
                 "code",
-                "No Boost",
+                "Rent",
                 1
             ],
             [
                 "code",
-                "Boost 1",
+                "Own",
                 2
             ],
             [
                 "code",
-                "Boost 2",
+                "Other, please specify",
                 3
             ]
         ],
@@ -749,14 +1031,19 @@
     },
     {
         "id": 23,
-        "question_var": "vlist",
-        "question_text": "vlist: Participant source",
+        "question_var": "Q24",
+        "question_text": "Q24: Are you the parent or guardian of any children under 18 years old, who live in your household?",
         "base_text": "Total Respondents",
         "display_structure": [
             [
                 "code",
-                "Innovate (list=1)",
+                "Yes",
                 1
+            ],
+            [
+                "code",
+                "No",
+                2
             ]
         ],
         "base_filter": null,
@@ -766,168 +1053,44 @@
     },
     {
         "id": 24,
-        "question_var": "vmobiledevice",
-        "question_text": "vmobiledevice: Mobile device category",
+        "question_var": "Q26",
+        "question_text": "Q26: Which of the following best describes your employment status?",
         "base_text": "Total Respondents",
         "display_structure": [
             [
                 "code",
-                "Smartphone",
+                "Employed full time (35+ hours per week)",
                 1
             ],
             [
                 "code",
-                "Featurephone",
+                "Employed part time (less than 35 hours per week)",
                 2
             ],
             [
                 "code",
-                "Tablet",
+                "Retired",
                 3
             ],
             [
                 "code",
-                "Other mobile",
+                "A student",
                 4
             ],
             [
                 "code",
-                "Desktop",
-                5
-            ]
-        ],
-        "base_filter": null,
-        "question_type": "single",
-        "mean_var": null,
-        "show_sigma": true
-    },
-    {
-        "id": 25,
-        "question_var": "vmobileos",
-        "question_text": "vmobileos: Mobile OS",
-        "base_text": "Total Respondents",
-        "display_structure": [
-            [
-                "code",
-                "iOS",
-                1
-            ],
-            [
-                "code",
-                "Android",
-                2
-            ],
-            [
-                "code",
-                "Symbian",
-                3
-            ],
-            [
-                "code",
-                "Windows Phone",
-                4
-            ],
-            [
-                "code",
-                "Blackberry",
+                "A homemaker",
                 5
             ],
             [
                 "code",
-                "Other/Desktop",
-                6
-            ]
-        ],
-        "base_filter": null,
-        "question_type": "single",
-        "mean_var": null,
-        "show_sigma": true
-    },
-    {
-        "id": 26,
-        "question_var": "vos",
-        "question_text": "vos: Operating System",
-        "base_text": "Total Respondents",
-        "display_structure": [
-            [
-                "code",
-                "Windows 95",
-                1
-            ],
-            [
-                "code",
-                "Windows 98",
-                2
-            ],
-            [
-                "code",
-                "Windows 8",
-                3
-            ],
-            [
-                "code",
-                "Windows 10",
-                4
-            ],
-            [
-                "code",
-                "Windows 7",
-                5
-            ],
-            [
-                "code",
-                "Windows Vista",
+                "Not employed",
                 6
             ],
             [
                 "code",
-                "Windows 2003",
-                7
-            ],
-            [
-                "code",
-                "Windows XP",
-                8
-            ],
-            [
-                "code",
-                "Windows 2000",
-                9
-            ],
-            [
-                "code",
-                "Microsoft Windows NT 4.0",
-                10
-            ],
-            [
-                "code",
-                "Windows ME",
-                11
-            ],
-            [
-                "code",
-                "iPhone/iPad",
-                12
-            ],
-            [
-                "code",
-                "Mac OS X or older",
-                13
-            ],
-            [
-                "code",
-                "Other Mobile",
-                14
-            ],
-            [
-                "code",
-                "Linux, UNIX",
-                15
-            ],
-            [
-                "code",
-                "Other",
-                16
+                "I prefer not to answer",
+                98
             ]
         ],
         "base_filter": null,
